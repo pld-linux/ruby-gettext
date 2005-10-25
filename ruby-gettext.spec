@@ -1,7 +1,8 @@
 %define	ruby_archdir	%(ruby -r rbconfig -e 'print Config::CONFIG["archdir"]')
 %define ruby_rubylibdir %(ruby -r rbconfig -e 'print Config::CONFIG["rubylibdir"]')
 %define	ruby_ridir	%(ruby -r rbconfig -e 'include Config; print File.join(CONFIG["datadir"], "ri", CONFIG["ruby_version"], "system")')
-Summary:	gettext binding for Ruby.
+Summary:	gettext binding for Ruby
+Summary(pl):	Wi±zanie gettexta dla jêzyka Ruby
 Name:		ruby-gettext
 Version:	1.0.0
 Release:	1
@@ -11,14 +12,17 @@ Source0:	http://rubyforge.org/frs/download.php/5885/%{name}-package-%{version}.t
 # Source0-md5:	82e11ac909a982e95bacbdfe5384207e
 Source1:	setup.rb
 URL:		http://ponx.s5.xrea.com/hiki/ruby-gettext.html
+BuildRequires:	gettext-devel
 BuildRequires:	ruby
 BuildRequires:	ruby-devel
-BuildRequires:	gettext-devel
 Requires:	ruby
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 gettext binding for Ruby.
+
+%description -l pl
+Wi±zanie gettexta dla jêzyka Ruby.
 
 %prep
 %setup -q -n %{name}-package-%{version}
