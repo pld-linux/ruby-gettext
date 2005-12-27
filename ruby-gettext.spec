@@ -2,7 +2,7 @@ Summary:	gettext binding for Ruby
 Summary(pl):	Wi±zanie gettexta dla jêzyka Ruby
 Name:		ruby-gettext
 Version:	1.0.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages
 Source0:	http://rubyforge.org/frs/download.php/5885/%{name}-package-%{version}.tar.gz
@@ -11,9 +11,9 @@ Source1:	setup.rb
 URL:		http://ponx.s5.xrea.com/hiki/ruby-gettext.html
 BuildRequires:	gettext-devel
 BuildRequires:	rpmbuild(macros) >= 1.263
-BuildRequires:	ruby
+BuildRequires:	ruby-modules
 BuildRequires:	ruby-devel
-Requires:	ruby
+Requires:	ruby-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
