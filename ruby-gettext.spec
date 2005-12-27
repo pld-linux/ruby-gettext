@@ -11,7 +11,6 @@ Source1:	setup.rb
 URL:		http://ponx.s5.xrea.com/hiki/ruby-gettext.html
 BuildRequires:	gettext-devel
 BuildRequires:	rpmbuild(macros) >= 1.263
-BuildRequires:	ruby-modules
 BuildRequires:	ruby-devel
 Requires:	ruby-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
