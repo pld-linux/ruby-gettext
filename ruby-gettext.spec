@@ -10,9 +10,9 @@ Source0:	http://rubyforge.org/frs/download.php/5885/%{name}-package-%{version}.t
 Source1:	setup.rb
 URL:		http://ponx.s5.xrea.com/hiki/ruby-gettext.html
 BuildRequires:	gettext-devel
-BuildRequires:	rpmbuild(macros) >= 1.263
+BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
-Requires:	ruby-modules
+%ruby_mod_ver_requires_eq
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
