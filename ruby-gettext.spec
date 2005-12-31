@@ -12,7 +12,7 @@ URL:		http://ponx.s5.xrea.com/hiki/ruby-gettext.html
 BuildRequires:	gettext-devel
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
-%ruby_mod_ver_requires_eq
+%{?ruby_mod_ver_requires_eq}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
