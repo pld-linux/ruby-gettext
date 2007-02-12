@@ -1,5 +1,5 @@
 Summary:	gettext binding for Ruby
-Summary(pl.UTF-8):   Wiązanie gettexta dla języka Ruby
+Summary(pl.UTF-8):	Wiązanie gettexta dla języka Ruby
 Name:		ruby-gettext
 Version:	1.0.0
 Release:	2
