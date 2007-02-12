@@ -1,5 +1,5 @@
 Summary:	gettext binding for Ruby
-Summary(pl):	Wi±zanie gettexta dla jêzyka Ruby
+Summary(pl.UTF-8):   WiÄ…zanie gettexta dla jÄ™zyka Ruby
 Name:		ruby-gettext
 Version:	1.0.0
 Release:	2
@@ -18,8 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 gettext binding for Ruby.
 
-%description -l pl
-Wi±zanie gettexta dla jêzyka Ruby.
+%description -l pl.UTF-8
+WiÄ…zanie gettexta dla jÄ™zyka Ruby.
 
 %prep
 %setup -q -n %{name}-package-%{version}
