@@ -10,6 +10,7 @@ Source0:	http://rubyforge.org/frs/download.php/67097/%{name}-package-%{version}.
 Source1:	setup.rb
 URL:		http://ponx.s5.xrea.com/hiki/ruby-gettext.html
 BuildRequires:	rpmbuild(macros) >= 1.277
+BuildRequires:	ruby-modules
 %{?ruby_mod_ver_requires_eq}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
